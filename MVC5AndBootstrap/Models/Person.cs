@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -20,6 +21,7 @@ namespace MVC5AndBootstrap.Models
 
         public DateTime BirthDate { get; set; }
 
+        [UIHint("BooleanButtonLabel")]
         public bool LikesMusic { get; set; }
 
         public IList<string> Skills { get; set; }
