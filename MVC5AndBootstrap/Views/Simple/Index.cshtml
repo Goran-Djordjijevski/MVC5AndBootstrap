@@ -12,7 +12,9 @@
     <h1>Welcome to the Person page <small>Read all about @Model.FirstName</small></h1>
 </div>
 
-<div>
+@Html.DisplayForModel(Model)
+
+@*<div>
     <h3>@Model.FirstName @Model.LastName</h3>
     <p>@Model.FirstName was born on @Model.BirthDate.ToString("D").</p>
     <p>
@@ -33,7 +35,7 @@
 @{ 
     ViewBag.ListDescription = "Skills:";
     Html.RenderPartial("_StringCollection", Model.Skills);
-}
+}*@
 
 <div>
     <h4>Person</h4>
