@@ -19,6 +19,7 @@ namespace MVC5AndBootstrap.Controllers
                 LastName = "Djordjijevski",
                 BirthDate = new DateTime(year: 1987, month: 8, day: 23),
                 LikesMusic = true,
+                EmailAddress = "pixidsg@gmail.com",
                 Skills = new List<string> { "Programming", "Microsoft Sql Server", "C#" }
             };
 

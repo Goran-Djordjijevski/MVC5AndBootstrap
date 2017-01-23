@@ -24,6 +24,8 @@ namespace MVC5AndBootstrap.Models
         [UIHint("BooleanButtonLabel")]
         public bool LikesMusic { get; set; }
 
+        public string EmailAddress { get; set; }
+
         public IList<string> Skills { get; set; }
     }
 }
